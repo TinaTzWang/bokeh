@@ -315,7 +315,6 @@ def gridplot(*args, **kwargs):
             else:
                 raise ValueError("Only LayoutDOM items can be inserted into a grid")
 
-
     if not merge_tools or not toolbar_location:
         return GridBox(children=items, sizing_mode=sizing_mode)
 
